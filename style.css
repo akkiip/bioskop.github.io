@@ -7,11 +7,6 @@ body {
     margin-right: 67px;
 }
 
-.nav-item.active a {
-    font-weight: bold;
-    color: white;
-}
-
 .navbar-brand {
     margin-left: 120px;
 }
@@ -156,7 +151,7 @@ body {
 }
 
 .content h2 {
-    font-weight: 600;
+    font-weight: 700;
     line-height: 72px;
     font-size: 48px;
 }

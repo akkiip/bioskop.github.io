@@ -4,11 +4,7 @@ body {
 
 /* Nav Stuff */
 .nav-item {
-    margin-right: 67px;
-}
-
-.navbar-brand {
-    margin-left: 120px;
+    margin-right: 40px;
 }
 
 .navbar {
@@ -26,14 +22,12 @@ body {
     cursor: pointer;
     border-radius: 4px;
     transition: ease-in-out 0.3s;
-    margin-right: 120px;
 }
 
 .btn-daftar {
-    margin-right: 10px;
-    margin-left: -100px;
     text-decoration: none;
     color: white;
+    font-weight: 700;
 }
 
 .btn-see {
@@ -57,9 +51,8 @@ body {
     width: 220px;
     height: 55px;
     border: none;
+    margin-bottom: 22px;
     transition: ease-in-out 0.3s;
-    margin-top: 44px;
-    margin-bottom: 55px;
 }
 
 .btn-lihat {
@@ -71,9 +64,8 @@ body {
     color: white;
     width: 220px;
     height: 55px;
-    display: inline-block;
-    margin-left: 42px;
     border-radius: 4px;
+    margin-left: 15px;
     transition: ease-in-out 0.3s;
 }
 
@@ -206,4 +198,16 @@ body {
     margin-top: 100px;
     margin-left: 349px;
     margin-right: 349px;
+}
+
+@media (max-width: 576px) {
+
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .btn-lihat {
+        margin-left: 0;
+    }
+
+    .navbar-brand {
+        margin-left: 3rem;
+    }
 }

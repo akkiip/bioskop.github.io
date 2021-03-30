@@ -19,13 +19,13 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="#"><img src="asset/video-roll 1.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Beranda</a>
@@ -51,22 +51,27 @@
   <section class="content">
     <div class="container">
       <div class="row hero">
-        <div class="col-lg-6 copywrite">
+        <div class="col-sm-12 col-md-9 col-lg-7 col-xl-5 copywrite offset-1 offset-sm-0 offset-md-1 offset-xl-0">
           <p class="mini-headline text-uppercase text-white">Baru Minggu Ini!</p>
-          <h2 class="text-white">Segera Saksikan<br>Film Kesayangan Anda <br>di Bioskop Terdekat</h2>
-          <button href="#" class="btn-order">Order Tiket</button>
-          <button href="#" class="btn-lihat">Lihat Film</button>
+          <h2 class="text-white">Segera Saksikan Film Kesayangan Anda di Bioskop Terdekat</h2>
+          <div class="row mb-2 mt-5">
+            <div class="col">
+              <button href="#" class="btn-order d-block d-sm-inline-block">Order Tiket</button>
+              <button href="#" class="btn-lihat">Lihat Film</button>
+            </div>
+          </div>
           <br>
           <img src="asset/p1.png" alt="">
           <img src="asset/p2.png" alt="">
           <img src="asset/p3.png" alt="">
           <img src="asset/p4.png" alt="">
           <p class="text-white d-inline-block m-3" style="font-weight: 800;font-size: 24px;">++</p>
-          <p class="text-white" style="font-weight: 300;font-size: 18px; margin-top: 17px;">Sudah ada ratusan user yang
-            bergabung dengan kami.
-            <br>Sekarang giliranmu!</p>
+          <div class="col">
+            <p class="text-white" style="font-weight: 300;font-size: 18px; margin-top: 17px;">Sudah ada ratusan user
+              yang bergabung dengan kami. Sekarang giliranmu!</p>
+          </div>
         </div>
-        <div class="col-lg-5 offset-1">
+        <div class="col-lg-4 col-xl-5 d-none d-xl-block mt-3 offset-lg-2">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -112,20 +117,17 @@
     </div>
   </section>
   <!-- Akhir Hero -->
-
   <!-- List Film (Sedang Tayang)-->
   <section class="list-film">
     <div class="container mb-3">
       <div class="row">
-        <div class="col-lg-10">
+        <div class="col d-flex justify-content-between">
           <h2>Sedang Tayang</h2>
-        </div>
-        <div class="col-lg-2">
           <a href="#" class="nav-link btn-see text-center">Selengkapnya</a>
         </div>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col-sm">
           <div class="card">
             <img src="asset/NKCTHI.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -135,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <div class="card">
             <img src="asset/TILIK.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -145,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <div class="card">
             <img src="asset/Mulan.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -164,10 +166,8 @@
   <section class="list-film">
     <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-10">
+        <div class="col d-flex justify-content-between">
           <h2>Upcoming</h2>
-        </div>
-        <div class="col-lg-2">
           <a href="#" class="nav-link btn-see text-center">Selengkapnya</a>
         </div>
       </div>
@@ -206,7 +206,6 @@
     </div>
   </section>
   <!-- Akhir List Film (Upcoming) -->
-
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
